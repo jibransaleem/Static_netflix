@@ -3,6 +3,9 @@
     padding: 0;
 
 }
+body{
+    background-color: black;
+}
 #logo img {
     width: 10rem;
     height: auto;
@@ -106,7 +109,176 @@ gap: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: 1px solid red;
-    height: 15rem;
+    height: 18rem;
     width: 17rem;
+    border-radius: 14px;
+    margin-left: 2.5rem;
+    color: white;
+    background-color: rgb(7, 7, 60);
+    transition: 0.4s ease-in;
+    background-image: linear-gradient(rgb(7, 7, 60),rgba(255, 0, 0,0.2));
+
+}
+#four{
+    width: 15rem;
+}
+#one,#two{
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+#three{
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+#four{
+
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+#one_one,#two_two,#four_four,#three_three{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-top: 2.5rem;
+    gap: 1rem;
+    
+}
+#one_para{
+    
+    width: 14rem;
+    color: rgb(220, 217, 217);
+    font-size:16;
+    line-height: 20px;
+}
+#two_para{
+    
+    width: 11rem;
+    color: rgb(220, 217, 217);
+    font-size:16;
+    line-height: 20px;
+}
+#three_para{
+    width: 14rem;
+    color: rgb(220, 217, 217);
+    font-size:16;
+    line-height: 20px;
+
+}
+#four_para{
+    font-size:16;
+    line-height: 20px;
+    width: 13rem;
+    margin-right: 1rem;
+    color: rgb(220, 217, 217);
+}
+#TV,#seed,#mask,#download{
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+    height: 2rem;
+    width: 2rem;
+}
+#card-line{
+    width: 15rem;
+    margin-left: 6.8rem;
+    font-size: 25px;
+    font-weight: 600;
+}
+#trending{
+    font-size: 25px;
+    font-weight: 600;
+
+}
+#one:hover{
+    transform: scale(1.1);
+}
+#two:hover{
+    transform: scale(1.1);
+}
+#three:hover{
+    transform: scale(1.1);
+}
+#four:hover{
+    transform: scale(1.1);
+}
+h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+}
+.queries{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#que1,#que2,#que3,#que4,#que4,#que5,#que6{
+    color: white;
+    background-color: rgb(48, 46, 46);
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 53rem;
+    width: 65rem;
+    height: 6rem;
+    transition: 0.2s ease-in;
+    font-weight: 600;
+    font-size: 20px;
+}
+#que1{
+    gap: 47rem;
+}
+#que2{
+    gap: 40rem;
+}
+#que3{
+    gap: 45rem;
+}
+#que4{
+    gap: 47rem;
+}
+#que5{
+    gap: 41rem;
+}
+#que6{
+    gap: 43rem;
+    
+}
+#que1:hover{
+    background-color: rgb(79, 75, 75);
+}
+#que2:hover{
+    background-color: rgb(79, 75, 75);
+}
+#que3:hover{
+    background-color: rgb(79, 75, 75);
+}
+#que4:hover{
+    background-color: rgb(79, 75, 75);
+}
+#que5:hover{
+    background-color: rgb(79, 75, 75);
+}
+#que6:hover{
+    background-color: rgb(79, 75, 75);
+    
+}
+#ques{
+    align-self: flex-start;
+    margin-left: 7rem;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+#reason,#trending {
+    color: white;
 }
